@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    padding: 10% 0;
+    font-style: normal;
+    font-family: "news-gothic-std", Helvetica;
+    font-weight: 400;
+    color: #fff;
+    max-width: 80%;
+    background-color: #DBC1B3;
+    background-image: url(fallback-gradient.svg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#DBC1B3 ), to(#7f7f7f));
+    background-image: -webkit-linear-gradient(left, #DBC1B3 , #7f7f7f);
+    background-image: -moz-linear-gradient(left, #DBC1B3 , #7f7f7f);
+    background-image: -o-linear-gradient(left, #DBC1B3 , #7f7f7f);
+    background-image: linear-gradient(to right, #DBC1B3 , #7f7f7f);
+}
+
+h1 {
+    text-align: center;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000;
+    padding-bottom:50px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.form1 {
+    font-size: 0;
+    margin-bottom: 3vw;
+}
+
+label{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+input, select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0px solid #3f424c;
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    height: 7vw;
+    float: none;
+    clear: both;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.6vw;
+    line-height: normal;
+    border-radius: 0px;
+    background: #FFF;
+    color: #7c7c7c;
+    font-size: 2vw;
+    font-family: "news-gothic-std", sans-serif;
+    text-indent: 0;
+    text-transform: lowercase;
+    padding: 0 1.6vw 0 1.6vw;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #7c7c7c;
+}
+  
+input:-moz-placeholder {/* Firefox 18- */
+    color: #7c7c7c;
+    opacity: 1;
+}
+  
+input::-moz-placeholder {/* Firefox 19+ */
+    color: #7c7c7c;
+    opacity: 1;
+}
+  
+input:-ms-input-placeholder {
+    color: #7c7c7c;
+}
+
+
+  
+button{
+    text-align: center;
+    background: #9a297b;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+  
+    body {
+      max-width: 100%;
+    }
+  
+    .form1 label {
+      font-size: 1.7vw;
+      align-items: center;
+      padding-left: 10%;
+    }
+
+    .div input {
+        padding-left: 10%;
+    }
+  
+    input, select {
+      font-size: 1.25vw;
+      height: 3.54vw;
+      padding-left: 2.5vw;
+      padding-right: 0.5vw;
+      letter-spacing: 0.2vw;
+    }
+}

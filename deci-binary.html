@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$"> </filesMatch>
+        <link rel="stylesheet" href="deci-binary.css">
+        <title>Decimal to Binary Converter</title>
+    </head>
+
+    <body>
+        <h1>Welcome to Decimal <br> to <br> Binary Converter!</h1>
+        <h3>This will convert the positive integer that is in Decimal form into Binary</h3>
+        <p></p>
+        <form class="form1">
+            <div class="input">
+                <label for="num">Input Decimal</label>
+                <p> </p>
+                <input type="number" id="num" min="0" max="1,000,000,000,000"
+                    placeholder="enter positive integers only">
+            </div>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <div class="button">
+                <button class="submit" type="button" onclick="getVal()" value="submit" id="btn"> SUBMIT </button>
+            </div>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <!--For printing contents-->
+            <div class="output">
+                <label>Binary <br> </label>
+                <p> </p>
+                <input id="output" type="number" name="output" placeholder="Click Submit to Show Binary">
+              </div>
+        </form>
+
+         <!--For JavaScript Linking-->
+         <script src="deci-binary.js"> </script>
+        
+    </body>
+
+</html>
